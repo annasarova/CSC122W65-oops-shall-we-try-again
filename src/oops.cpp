@@ -62,13 +62,13 @@ bool getValidatedInt(short lowerBound,
                 else
                 {
                     // Out of range
-                    std::cout << errorMsg << std::endl;
+                    std::cout << errorMsg << "\n";
                 }
             }
             catch (...)
             {
                 // Non-numeric input
-                std::cout << errorMsg << std::endl;
+                std::cout << errorMsg << "\n";
             }
         }
     }
